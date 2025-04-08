@@ -1,6 +1,6 @@
-# Bouncer – Minimal Kubernetes Admission Webhook
+# k8s_Bouncer – Minimal Kubernetes Admission Webhook
 
-Bouncer is a lightweight admission webhook server for Kubernetes, implemented in Python using Flask. It is intended to be used with Kubernetes' `ImagePolicyWebhook` and `ValidatingAdmissionWebhook` admission plugins to validate or deny Kubernetes API requests based on custom logic.
+k8s_Bouncer is a lightweight admission webhook server for Kubernetes, implemented in Python using Flask. It is intended to be used with Kubernetes' `ImagePolicyWebhook` and `ValidatingAdmissionWebhook` admission plugins to validate or deny Kubernetes API requests based on custom logic.
 
 This project provides a simple example of how to build, deploy, and integrate a webhook server into a Kubernetes cluster with proper TLS and admission configurations.
 
@@ -44,8 +44,8 @@ This project provides a simple example of how to build, deploy, and integrate a 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-org/bouncer.git
-   cd bouncer
+   git clone https://github.com/geek-kb/k8s_bouncer.git
+   cd k8s_bouncer
    ```
 
 2. Build the Docker image:
